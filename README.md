@@ -28,16 +28,27 @@ Este projeto foi criado com **Java + Spring Boot** e segue o padrão de **arquit
 
 ## 📂 Estrutura do Projeto
 src/
+
 ├── main/
+
 │ ├── java/com/devsuperior/dslist/
+
 │ │ ├── controllers/ → Endpoints da API
+
 │ │ ├── services/ → Regras de negócio
+
 │ │ ├── repositories/ → Acesso ao banco
+
 │ │ ├── entities/ → Entidades JPA
+
 │ │ └── dtos/ → Objetos de transferência
+
 │ └── resources/
+│
 │ ├── application.properties → Configurações
+
 │ └── import.sql → Seed de dados
+
 └── test/ → Testes automatizados
 
 ---
